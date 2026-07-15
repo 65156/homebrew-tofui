@@ -15,6 +15,10 @@ Or in one line without tapping first:
 brew install 65156/tofui/tofui
 ```
 
+> **Homebrew 6.0+** requires trusting third-party taps. If you see
+> `Refusing to load formula … from untrusted tap`, run `brew trust 65156/tofui`
+> (or `brew trust --formula 65156/tofui/tofui`) and re-run the install.
+
 Everything (report generation, dashboard publishing, and S3 hosting) is bundled —
 `requests` and `boto3` ship inside the formula's isolated virtualenv, so no extra
 steps are needed.
