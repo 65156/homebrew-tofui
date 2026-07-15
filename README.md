@@ -1,18 +1,18 @@
-# homebrew-tofu
+# homebrew-tofui
 
 Homebrew tap for [tofUI](https://github.com/65156/tofUI) — beautiful OpenTofu & Terraform plan reports.
 
 ## Install
 
 ```sh
-brew tap 65156/tofu
+brew tap 65156/tofui
 brew install tofui
 ```
 
 Or in one line without tapping first:
 
 ```sh
-brew install 65156/tofu/tofui
+brew install 65156/tofui/tofui
 ```
 
 Everything (report generation, dashboard publishing, and S3 hosting) is bundled —
@@ -30,7 +30,7 @@ brew upgrade tofui
 
 ```sh
 brew uninstall tofui
-brew untap 65156/tofu
+brew untap 65156/tofui
 ```
 
 ## Maintainers: cutting a new release
@@ -43,12 +43,12 @@ When a new `tofUI` version is tagged on GitHub:
    ```
 2. Refresh the Python `resource` blocks if dependencies changed:
    ```sh
-   brew update-python-resources 65156/tofu/tofui
+   brew update-python-resources 65156/tofui/tofui
    ```
 3. Verify locally:
    ```sh
-   brew audit --formula 65156/tofu/tofui
-   brew install --build-from-source 65156/tofu/tofui
-   brew test 65156/tofu/tofui
+   brew audit --formula 65156/tofui/tofui
+   brew install --build-from-source 65156/tofui/tofui
+   brew test 65156/tofui/tofui
    ```
 4. Commit and push.
