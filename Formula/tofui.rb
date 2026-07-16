@@ -3,8 +3,8 @@ class Tofui < Formula
 
   desc "Beautiful OpenTofu & Terraform plan reports"
   homepage "https://github.com/65156/tofUI"
-  url "https://github.com/65156/tofUI/archive/refs/tags/v1.4.1.tar.gz"
-  sha256 "e07aeeb6fe2b90a8ea92ad434a7614168b866afcbcfdc17c14f0c8299d5ec059"
+  url "https://github.com/65156/tofUI/archive/refs/tags/v1.4.2.tar.gz"
+  sha256 "4dee3f1e4c81953866c6228c1a7a5e740e14ecb21677eaa22e3379711d08cc09"
   license "MIT"
 
   depends_on "python@3.13"
